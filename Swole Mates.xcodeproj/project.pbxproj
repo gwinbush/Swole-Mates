@@ -1,0 +1,585 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		F8D334A122A7499400324261 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F8D334A022A7499400324261 /* AppDelegate.swift */; };
+		F8D334A322A7499400324261 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F8D334A222A7499400324261 /* ViewController.swift */; };
+		F8D334A622A7499400324261 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F8D334A422A7499400324261 /* Main.storyboard */; };
+		F8D334A822A749A500324261 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F8D334A722A749A500324261 /* Assets.xcassets */; };
+		F8D334AB22A749A500324261 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F8D334A922A749A500324261 /* LaunchScreen.storyboard */; };
+		F8D334B622A749A600324261 /* Swole_MatesTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F8D334B522A749A600324261 /* Swole_MatesTests.swift */; };
+		F8D334C122A749A600324261 /* Swole_MatesUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F8D334C022A749A600324261 /* Swole_MatesUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		F8D334B222A749A600324261 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = F8D3349522A7499300324261 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = F8D3349C22A7499300324261;
+			remoteInfo = "Swole Mates";
+		};
+		F8D334BD22A749A600324261 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = F8D3349522A7499300324261 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = F8D3349C22A7499300324261;
+			remoteInfo = "Swole Mates";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		F8D3349D22A7499400324261 /* Swole Mates.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Swole Mates.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		F8D334A022A7499400324261 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		F8D334A222A7499400324261 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		F8D334A522A7499400324261 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		F8D334A722A749A500324261 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		F8D334AA22A749A500324261 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		F8D334AC22A749A500324261 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F8D334B122A749A600324261 /* Swole MatesTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Swole MatesTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		F8D334B522A749A600324261 /* Swole_MatesTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Swole_MatesTests.swift; sourceTree = "<group>"; };
+		F8D334B722A749A600324261 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F8D334BC22A749A600324261 /* Swole MatesUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Swole MatesUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		F8D334C022A749A600324261 /* Swole_MatesUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Swole_MatesUITests.swift; sourceTree = "<group>"; };
+		F8D334C222A749A600324261 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		F8D3349A22A7499300324261 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F8D334AE22A749A600324261 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F8D334B922A749A600324261 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		F8D3349422A7499300324261 = {
+			isa = PBXGroup;
+			children = (
+				F8D3349F22A7499400324261 /* Swole Mates */,
+				F8D334B422A749A600324261 /* Swole MatesTests */,
+				F8D334BF22A749A600324261 /* Swole MatesUITests */,
+				F8D3349E22A7499400324261 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		F8D3349E22A7499400324261 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				F8D3349D22A7499400324261 /* Swole Mates.app */,
+				F8D334B122A749A600324261 /* Swole MatesTests.xctest */,
+				F8D334BC22A749A600324261 /* Swole MatesUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		F8D3349F22A7499400324261 /* Swole Mates */ = {
+			isa = PBXGroup;
+			children = (
+				F8D334A022A7499400324261 /* AppDelegate.swift */,
+				F8D334A222A7499400324261 /* ViewController.swift */,
+				F8D334A422A7499400324261 /* Main.storyboard */,
+				F8D334A722A749A500324261 /* Assets.xcassets */,
+				F8D334A922A749A500324261 /* LaunchScreen.storyboard */,
+				F8D334AC22A749A500324261 /* Info.plist */,
+			);
+			path = "Swole Mates";
+			sourceTree = "<group>";
+		};
+		F8D334B422A749A600324261 /* Swole MatesTests */ = {
+			isa = PBXGroup;
+			children = (
+				F8D334B522A749A600324261 /* Swole_MatesTests.swift */,
+				F8D334B722A749A600324261 /* Info.plist */,
+			);
+			path = "Swole MatesTests";
+			sourceTree = "<group>";
+		};
+		F8D334BF22A749A600324261 /* Swole MatesUITests */ = {
+			isa = PBXGroup;
+			children = (
+				F8D334C022A749A600324261 /* Swole_MatesUITests.swift */,
+				F8D334C222A749A600324261 /* Info.plist */,
+			);
+			path = "Swole MatesUITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		F8D3349C22A7499300324261 /* Swole Mates */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F8D334C522A749A600324261 /* Build configuration list for PBXNativeTarget "Swole Mates" */;
+			buildPhases = (
+				F8D3349922A7499300324261 /* Sources */,
+				F8D3349A22A7499300324261 /* Frameworks */,
+				F8D3349B22A7499300324261 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Swole Mates";
+			productName = "Swole Mates";
+			productReference = F8D3349D22A7499400324261 /* Swole Mates.app */;
+			productType = "com.apple.product-type.application";
+		};
+		F8D334B022A749A600324261 /* Swole MatesTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F8D334C822A749A600324261 /* Build configuration list for PBXNativeTarget "Swole MatesTests" */;
+			buildPhases = (
+				F8D334AD22A749A600324261 /* Sources */,
+				F8D334AE22A749A600324261 /* Frameworks */,
+				F8D334AF22A749A600324261 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				F8D334B322A749A600324261 /* PBXTargetDependency */,
+			);
+			name = "Swole MatesTests";
+			productName = "Swole MatesTests";
+			productReference = F8D334B122A749A600324261 /* Swole MatesTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		F8D334BB22A749A600324261 /* Swole MatesUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F8D334CB22A749A600324261 /* Build configuration list for PBXNativeTarget "Swole MatesUITests" */;
+			buildPhases = (
+				F8D334B822A749A600324261 /* Sources */,
+				F8D334B922A749A600324261 /* Frameworks */,
+				F8D334BA22A749A600324261 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				F8D334BE22A749A600324261 /* PBXTargetDependency */,
+			);
+			name = "Swole MatesUITests";
+			productName = "Swole MatesUITests";
+			productReference = F8D334BC22A749A600324261 /* Swole MatesUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		F8D3349522A7499300324261 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1020;
+				LastUpgradeCheck = 1020;
+				ORGANIZATIONNAME = "Gabriel Winbush";
+				TargetAttributes = {
+					F8D3349C22A7499300324261 = {
+						CreatedOnToolsVersion = 10.2.1;
+					};
+					F8D334B022A749A600324261 = {
+						CreatedOnToolsVersion = 10.2.1;
+						TestTargetID = F8D3349C22A7499300324261;
+					};
+					F8D334BB22A749A600324261 = {
+						CreatedOnToolsVersion = 10.2.1;
+						TestTargetID = F8D3349C22A7499300324261;
+					};
+				};
+			};
+			buildConfigurationList = F8D3349822A7499300324261 /* Build configuration list for PBXProject "Swole Mates" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = F8D3349422A7499300324261;
+			productRefGroup = F8D3349E22A7499400324261 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				F8D3349C22A7499300324261 /* Swole Mates */,
+				F8D334B022A749A600324261 /* Swole MatesTests */,
+				F8D334BB22A749A600324261 /* Swole MatesUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		F8D3349B22A7499300324261 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F8D334AB22A749A500324261 /* LaunchScreen.storyboard in Resources */,
+				F8D334A822A749A500324261 /* Assets.xcassets in Resources */,
+				F8D334A622A7499400324261 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F8D334AF22A749A600324261 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F8D334BA22A749A600324261 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		F8D3349922A7499300324261 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F8D334A322A7499400324261 /* ViewController.swift in Sources */,
+				F8D334A122A7499400324261 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F8D334AD22A749A600324261 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F8D334B622A749A600324261 /* Swole_MatesTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F8D334B822A749A600324261 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F8D334C122A749A600324261 /* Swole_MatesUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		F8D334B322A749A600324261 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = F8D3349C22A7499300324261 /* Swole Mates */;
+			targetProxy = F8D334B222A749A600324261 /* PBXContainerItemProxy */;
+		};
+		F8D334BE22A749A600324261 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = F8D3349C22A7499300324261 /* Swole Mates */;
+			targetProxy = F8D334BD22A749A600324261 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		F8D334A422A7499400324261 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F8D334A522A7499400324261 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		F8D334A922A749A500324261 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F8D334AA22A749A500324261 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		F8D334C322A749A600324261 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		F8D334C422A749A600324261 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		F8D334C622A749A600324261 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "Swole Mates/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.Swole-Mates";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		F8D334C722A749A600324261 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "Swole Mates/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.Swole-Mates";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		F8D334C922A749A600324261 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "Swole MatesTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.Swole-MatesTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Swole Mates.app/Swole Mates";
+			};
+			name = Debug;
+		};
+		F8D334CA22A749A600324261 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "Swole MatesTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.Swole-MatesTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Swole Mates.app/Swole Mates";
+			};
+			name = Release;
+		};
+		F8D334CC22A749A600324261 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "Swole MatesUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.Swole-MatesUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "Swole Mates";
+			};
+			name = Debug;
+		};
+		F8D334CD22A749A600324261 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "Swole MatesUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.Swole-MatesUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "Swole Mates";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		F8D3349822A7499300324261 /* Build configuration list for PBXProject "Swole Mates" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F8D334C322A749A600324261 /* Debug */,
+				F8D334C422A749A600324261 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F8D334C522A749A600324261 /* Build configuration list for PBXNativeTarget "Swole Mates" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F8D334C622A749A600324261 /* Debug */,
+				F8D334C722A749A600324261 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F8D334C822A749A600324261 /* Build configuration list for PBXNativeTarget "Swole MatesTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F8D334C922A749A600324261 /* Debug */,
+				F8D334CA22A749A600324261 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F8D334CB22A749A600324261 /* Build configuration list for PBXNativeTarget "Swole MatesUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F8D334CC22A749A600324261 /* Debug */,
+				F8D334CD22A749A600324261 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = F8D3349522A7499300324261 /* Project object */;
+}
